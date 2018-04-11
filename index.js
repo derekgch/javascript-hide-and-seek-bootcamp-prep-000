@@ -4,12 +4,10 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  const lis = document.getElementById('app').querySelectorAll('nested')
-  console.log(lis);
+  return document.getElementById('nested').querySelectorAll('targer')
+  
 
-  for (let i = 0; i < lis.length; i++) {
-
-  }
+  
 
 
 
@@ -27,4 +25,4 @@ function increaseRankBy(n) {
 
 
 }
-nestedTarget();
+

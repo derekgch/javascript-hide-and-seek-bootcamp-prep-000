@@ -8,9 +8,6 @@ function nestedTarget() {
 
 
 
-
-
-
 }
 
 function deepestChild() {
